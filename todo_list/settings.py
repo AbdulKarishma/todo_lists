@@ -115,6 +115,8 @@ USE_TZ = True
 
 LOGIN_URL = 'login'
 
+CSRF_TRUSTED_ORIGINS = ['https://todo_list.vercel.app', 'https://*.vercel.app']
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
